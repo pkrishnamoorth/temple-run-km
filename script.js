@@ -4,6 +4,7 @@ const obstacle = document.getElementById('obstacle');
 let playerLeft = 50;
 let playerBottom = 20;
 
+
 document.addEventListener('keydown', (event) => {
     if (event.code === 'ArrowUp' && playerBottom < 380) {
         playerBottom += 20;
